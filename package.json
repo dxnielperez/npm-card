@@ -1,16 +1,16 @@
 {
-	"name": "bitandbang",
-	"version": "4.0.1",
-	"description": "A personal card for Tierney Cyren (@bitandbang)",
+	"name": "dxnieldev",
+	"version": "4.0.2",
+	"description": "A personal card for Daniel Perez (@dxnieldev)",
 	"main": "/bin/card.mjs",
 	"bin": {
-		"bitandbang": "./bin/card.mjs"
+		"dxniel": "./bin/card.mjs"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bnb/bitandbang.git"
+		"url": "git+https://github.com/dxnielperez/npm-card.git"
 	},
-	"homepage": "https://bnb.im",
+	"homepage": "https://www.dxniel.dev",
 	"scripts": {
 		"prepublish": "npm run build",
 		"build": "node build.mjs",
@@ -27,7 +27,7 @@
 		"npx card",
 		"business card"
 	],
-	"author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+	"author": "Daniel Perez <danielperezf98@gmail.com> (https://www.dxniel.dev)",
 	"license": "MIT",
 	"files": [
 		"bin/card.mjs",
@@ -37,8 +37,5 @@
 		"@biomejs/biome": "1.8.2",
 		"boxen": "^7.1.1",
 		"chalk": "^5.3.0"
-	},
-	"bugs": {
-		"url": "https://github.com/bnb/bitandbang/issues"
 	}
 }
