@@ -1,4 +1,3 @@
-It's me, Daniel!
 
 # Usage
 
